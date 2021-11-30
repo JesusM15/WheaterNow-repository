@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: none;
+}
+body{
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1{
+	text-align: center;
+	color: #fff;
+    background: linear-gradient(to right, #191919, #191919);	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+
+}
+.datos{
+	color: #fff;
+	font-size: 19px;
+	margin-left: 10px;
+}
+#temperatura-valor{
+	font-size: 60px !important;
+}
+.contenedor{
+	height: 800px;
+	width: 26%;
+	margin: auto;
+	margin-top: 5px;
+	border-radius: 26px;
+	background: linear-gradient(rgba(0,0,0, .20) 0%, rgba(0,0,0, .20)40%), url("fondo.png");
+	background-size: cover;
+	border-bottom: 70px solid #191919;
+	border-top: 15px solid #191919;
+	border-left: 15px solid #191919;
+	border-right: 15px solid #191919;
+}
+.titulo-datos{
+	border-bottom: 1px solid #fff;
+}
+.burbuja{
+	filter: blur(0.9px);
+}
+.small-container{
+	background: rgba(50, 50, 50, 0.43);
+	margin-left: 10%;
+	height: 350px;
+	width: 90%;
+	color: #fff;
+	text-align: center;
+}
+#humedad{
+	font-size: 25px;
+	margin-top: 20px;
+}
+
+@media only screen and (max-width: 1500px) AND (min-width: 1200px){
+	.contenedor{
+		width: 36%;
+	}
+}
+@media only screen and (max-width: 1200px) AND (min-width: 1000px){
+	.contenedor{
+		width: 40%;
+	}
+}
+@media only screen and (max-width: 1000px) AND (min-width: 650px){
+	.contenedor{
+		width: 53%;
+	}
+}
+
+@media only screen and (max-width: 650px){
+	.contenedor{
+		width: 80%;
+	}
+}
+
+@media only screen and (min-height: 900px){
+	.contenedor{
+		margin-top: 45%;
+	}
+}
