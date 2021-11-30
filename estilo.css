@@ -75,7 +75,7 @@ h1{
 	}
 }
 
-@media only screen and (max-height: 900px){
+@media only screen and (min-height: 900px){
 	.contenedor{
 		margin-top: 250px;
 	}
